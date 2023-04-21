@@ -40,7 +40,6 @@ const ContactForm = () => {
     dispatch(addContact(name, number))
     setName('');
     setNumber('');
-    // onSubmit();
   };
 
   return (
@@ -78,7 +77,3 @@ const ContactForm = () => {
 }
 
 export default ContactForm;
-
-// ContactForm.propTypes = {
-//   onSubmit: PropTypes.func,
-// };
